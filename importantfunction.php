@@ -1,0 +1,36 @@
+<?php
+    $str = "Pritam Kumar Kundu";
+    echo strlen($str);
+    echo "<br>";
+    $var = true;
+    var_dump($var);
+    echo "<br>";
+    $a = "apple";
+    var_dump($a);
+    echo "<br>";
+    $b = 2014;
+    var_dump($b);
+    echo "<br>";
+    echo date("d-M-y");
+    echo "<br>";
+    echo date("l");
+    echo "<br>";
+    $var = "abc";
+    echo is_string($var);
+    echo "<br>";
+    $int = 123;
+    echo is_int($int);
+    echo "<br>";
+    echo rand();
+    echo "<br>";
+    $string = "code step by step";
+    echo substr($string, 5);
+    echo "<br>";
+    echo "before";
+    die();
+    exit();
+    echo "after";
+    echo "<br>";
+    echo phpinfo();
+    echo "<br>";
+?>
